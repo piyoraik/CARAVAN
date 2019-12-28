@@ -15,7 +15,12 @@ a {
  clear: both;
 }
 
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
+ position: relative;
  width: 90%; /* 横幅いっぱい  */
  padding: 15px 0;
  margin: 0 auto;
@@ -26,6 +31,17 @@ header {
 /* headerタグ内の headlineクラスのみに適応 */
 header .headline {
  font-size: 32px;
+}
+
+.social {
+ position: absolute;
+ top: 22px;
+ right: 22px;
+}
+
+.social i {
+ /*display: inline-block;*/
+ margin-left: 20px;
 }
 
 .nav-list {
@@ -143,79 +159,79 @@ main{
 }
 
 .sidebar-headline, .instagram-headline, .categories-headline {
-	border-bottom: 8px solid #f7f7f7;
-	text-align: center;
-	margin-bottom: 5px;
+ border-bottom: 8px solid #f7f7f7;
+ text-align: center;
+ margin-bottom: 5px;
 }
 
 .sidebar-contents {
-	padding: 50px 0;
+ padding: 50px 0;
 }
 
 .popular-text, .categories-text {
-	padding-bottom: 5px;
-	border-bottom: 1px solid #f7f7f7;
-	margin-bottom: 5px;
+ padding-bottom: 5px;
+ border-bottom: 1px solid #f7f7f7;
+ margin-bottom: 5px;
 }
 
 .popular-text:last-child, .categories-text:last-child {
-	margin: 0;
-	padding: 0;
-	border: none;
+ margin: 0;
+ padding: 0;
+ border: none;
 /*	color: red;*/
 }
 
 .instagram-box {
-	float: left;
-	width: 110px;
-	padding-top: 110px;
-	background-size: cover;
-	background-position: center;
+ float: left;
+ width: 110px;
+ padding-top: 110px;
+ background-size: cover;
+ background-position: center;
 }
 
 .instagram-box:nth-child(odd) {
-	margin: 0 10px 10px 0;
+ margin: 0 10px 10px 0;
 }
 
 .instagram-box:nth-child(1) {
-	background-image: url(img/airport.jpg);
+ background-image: url(img/airport.jpg);
 }
 
 .instagram-box:nth-child(2) {
-	background-image: url(img/japan.jpg);
+ background-image: url(img/japan.jpg);
 }
 
 .instagram-box:nth-child(3) {
-	background-image: url(img/snow.jpg);
+ background-image: url(img/snow.jpg);
 }
 
 .instagram-box:nth-child(4) {
-	background-image: url(img/japan2.jpg);
+ background-image: url(img/japan2.jpg);
 }
 
 .instagram-box:nth-child(5) {
-	background-image: url(img/lake.jpg);
+ background-image: url(img/lake.jpg);
 }
 
 .instagram-box:nth-child(6) {
-	background-image: url(img/road.jpg);
+ background-image: url(img/road.jpg);
 }
 
 .pagination {
-	text-align: center;
-	/*margin-top: 50px;*/
-	padding-top: 50px;
+ text-align: center;
+ /*margin-top: 50px;*/
+ padding-top: 50px;
 }
 
 .pagination p{
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	background-color: #acabab;
-	color: #fff;
-	border-radius: 3px;
-	margin: 0 5px;
-	line-height: 30px;
+ display: inline-block;
+ width: 30px;
+ height: 30px;
+ background-color: #acabab;
+ color: #fff;
+ border-radius: 3px;
+ margin: 0 5px;
+ line-height: 30px;
 }
 
 footer {
@@ -227,5 +243,5 @@ footer {
 }
 
 .footer-text {
-    color: #fff;
-
+ color: #fff;
+}
