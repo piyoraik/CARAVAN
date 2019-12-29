@@ -37,6 +37,7 @@ header .headline {
  position: absolute;
  top: 22px;
  right: 22px;
+ color: black;
 }
 
 .social i {
@@ -245,3 +246,92 @@ footer {
 .footer-text {
  color: #fff;
 }
+
+.social i {
+  color: black;
+}
+
+@media screen and (max-width:768px) {
+  header {
+    width: 100%;
+    /* background-color: blue; */
+  }
+
+  .social {
+    display: none;
+  }
+
+  .nav-list {
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  .nav-list-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+  
+  main {
+    width: 100%;
+  }
+
+  .blog {
+    width: 100%;
+    margin: 0
+  }
+
+  .blog-box {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .blog-image {
+    width: 50%;
+  }
+
+  .blog-text {
+    width: 50%;
+  }
+
+  .pagination {
+    margin-bottom: 50px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .popular-text {
+    text-align: center;
+  }
+
+  .instagram-box {
+    width: 100%;
+  }
+
+  .categories-text {
+    text-align: center;
+  }
+}
+
+/* @media screen and (max-width:1024px) {
+  .social i {
+    color: green;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .social i {
+    color: red;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .social i {
+    color: blue;
+  }
+} */
