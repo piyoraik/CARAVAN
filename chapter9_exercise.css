@@ -14,11 +14,28 @@ main {
     margin: 50px auto;
     width: 960px;
     /* height: 1000px; */
-    background-color: red;
+    /* background-color: red; */
 }
 
-.imag {
-    width: 280px;
+.image-1 {
+    background-image: url(img/flow01.png);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-2 {
+    background-image: url(img/flow02.png);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-3 {
+    background-image: url(img/flow03.png);
+    height: 150px;
+    background-size: cover;
+    background-position: center;
 }
 
 .categories {
@@ -58,4 +75,28 @@ main {
     /* background-color: darkgray; */
     border: solid 2px #f7f7f7;
     position: relative;
+}
+
+@media screen and (max-width:768px){
+    main {
+        width: 100%;
+    }
+    .step1box {
+        margin: 50px 5% 20px 5%;
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .step2box {
+        margin: 50px 5% 20px 5%;
+        width: 90%;
+        float: none;
+    }
+
+    .step3box {
+        margin: 20px 5% 50px 5%;
+        width: 90%;
+        float: none;
+    }
 }
